@@ -8,12 +8,12 @@ from models.regnet import regnetx_3200m as _regnetx_3200m
 import torch
 dependencies = ['torch']
 model_path = {
-    'resnet18': '/home/tmp/resnet18_imagenet.pth.tar',
-    'resnet50': '/home/tmp/resnet50_imagenet.pth.tar',
-    'mbv2': '/home/tmp/mobilenetv2.pth.tar',
-    'reg600m': '/home/tmp/regnet_600m.pth.tar',
-    'reg3200m': '/home/tmp/regnet_3200m.pth.tar',
-    'mnasnet': '/home/tmp/mnasnet.pth.tar',
+    'resnet18': '/home/van-tien.pham/PD-Quant/ckpt/resnet18_imagenet.pth.tar',
+    'resnet50': '/home/van-tien.pham/PD-Quant/ckpt/resnet50_imagenet.pth.tar',
+    'mbv2': '/home/van-tien.pham/PD-Quant/ckpt/mobilenetv2.pth.tar',
+    'reg600m': '/home/van-tien.pham/PD-Quant/ckpt/regnet_600m.pth.tar',
+    'reg3200m': '/home/van-tien.pham/PD-Quant/ckpt/regnet_3200m.pth.tar',
+    'mnasnet': '/home/van-tien.pham/PD-Quant/ckpt/mnasnet.pth.tar',
 }
 
 
